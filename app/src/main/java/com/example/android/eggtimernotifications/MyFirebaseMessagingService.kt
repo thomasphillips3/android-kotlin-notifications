@@ -12,12 +12,10 @@ class MyFirebaseMessagingService : FirebaseMessagingService() {
     override fun onMessageReceived(remoteMessage: RemoteMessage?) {
         Log.d(TAG, "From: ${remoteMessage?.from}")
 
-        // TODO Step 3.5 check messages for data
         remoteMessage?.data?.let {
             Log.d(TAG, "Message data payload: " + remoteMessage.data)
         }
 
-        // TODO Step 3.6 check messages for notification and call sendNotification
         remoteMessage?.notification?.let {
             Log.d(TAG, "Message notification body: ${it.body}")
             sendNotification(it.body!!)
