@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "73064091097",
+    "firebase_url": "https://timer-notifications.firebaseio.com",
+    "project_id": "timer-notifications",
+    "storage_bucket": "timer-notifications.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:73064091097:android:abf9ec0d33c18a3f8dddc8",
+        "android_client_info": {
+          "package_name": "com.example.android.eggtimernotifications"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "73064091097-osl074lfb6f32md1f1ttvb18721p7eta.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAKHwKJYztJi9cdtE6Vf1-cfjcf2-YS7M8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "73064091097-osl074lfb6f32md1f1ttvb18721p7eta.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
